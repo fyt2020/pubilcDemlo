@@ -1,0 +1,34 @@
+.bigAngle{
+     display: flex;
+     width: 100%;
+     height: 100%;
+
+     .bigAngle__left{
+
+        width: 60%; 
+        height: 100%;
+        
+        margin-right: 40px;
+        .left__top{
+
+             width: 100%;
+             height: 80%;
+             border: 1px solid black;
+
+        }
+        .left__bottom{
+
+            width: 100%;
+            height: 15%;
+            border: 1px solid black;
+        }
+
+     }
+     .bigAngle__right{
+
+        width: 33%; 
+        height: 100%;
+        border: 1px solid black;
+
+     }
+}

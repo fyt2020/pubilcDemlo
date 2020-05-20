@@ -1,0 +1,40 @@
+{    
+"code": 0,
+"msg": "查询成功",
+"result":{  
+    "collectNo": "srlp1576136811447",
+    "createTime": 1576137220221,
+    "dataUrl": "srlp1576136811447_data/snap_srlp1576136811447.zip",
+    "description": "",
+    "deviceNo": "srlpcs",
+    "flag": 0,
+    "id": "srlp1576136811447",
+    "idNo": "452123699563215426",
+    "imageUrl": "990f0fa586192f7f3c50097ecb7d628a",
+    "ip": "",
+    "measStatus": 1,
+    "modelPath": "",
+    "modelStatusCname": "已完成",
+    "orgId": "gof4ql497f73pq8e",
+    "orgName": "上海刑侦总队",
+    "place": "srlpcs",
+    "preStatus": 0,
+    "queueTime": 0,
+    "sex": "男",
+    "source": "0",
+    "sourceName": "雪山三号33",
+    "status": 1,
+    "stickTime": 1577331829581,
+    "tag": [],
+    "time": "2019-12-12 15:53",
+    "type": 0,
+    "updateTime": 1577168947263,
+    "username": "阿森纳看见啊",
+    "xdata":[
+        { "x":21,
+            "y":65,
+            "w":113,
+            "h":234}
+    ]
+}
+}

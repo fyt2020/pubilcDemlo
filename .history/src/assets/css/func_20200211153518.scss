@@ -1,0 +1,10 @@
+@function px2Rem($px, $base-font-size: 19.2px) {
+    @if (unitless($px)) { //有无单位
+      @return ($px / 19.2) * 1rem;
+    } @else if (unit($px) == em) {
+      @return $px;
+    }
+    @return ($px / $base-font-size) * 1rem;
+}
+$img:"../../assets/img/img3";
+$img1:"../../assets/img";

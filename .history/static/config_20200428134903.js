@@ -1,0 +1,4 @@
+window.BASEURL = { 
+     fliename:'recg'
+};
+

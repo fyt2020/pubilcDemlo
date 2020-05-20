@@ -1,0 +1,138 @@
+.bigAngle{
+     display: flex;
+     width: 100%;
+     height: 100%;
+     .bigAngle__left{
+        width: 994px; 
+        height: 840px;
+        margin-right: 40px;
+        display: flex;
+        flex-direction: column;
+        background-color: #242f4d;
+        .left__top{
+             width: 100%;
+             height: 100%;
+            //  margin-bottom: 20px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             position: relative;
+             .uploadImg{
+                height: 100%;
+             }
+             .delete__img{
+                position: absolute;
+                width: 36px;
+                height: 36px;
+                right: 20px;
+                top:20px;
+                transition: all 0.1 linear;
+                z-index: 2100;
+                cursor: pointer;
+             }
+             .btn{
+                 position: absolute;
+                 outline: none;
+                 border-style: solid;
+                 border-width: 2px;
+                //  border-image-source: linear-gradient(0deg,#1a5fff 0%, #5f8ffd 100%);
+                //  border-image-slice: 1;
+                 width: 114px;
+                 height: 138px;
+                 line-height: 30px;
+                //  color: #1a5fff;
+                //  border-radius: 6px;
+                 z-index: 9999;
+             }
+        }
+        .left__bottom{
+            width: 100%;
+            height: 15%;
+            border: 1px solid black;
+            .left__bottom{
+
+            }
+            .recg__box{
+
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                .recg__item{
+                    width: 100px;
+                    height: 100px;
+                    .recg__itemImg{
+
+                        height: 100%;
+                    }
+                }
+            }
+        }
+     }
+     .bigAngle__right{
+        width: 33%; 
+        height: 100%;
+        
+
+        .right__top{
+            border: 1px solid black;
+            width: 100%;
+            height: 500px;
+            position: relative;
+            margin-bottom: 30px;
+            .right__topT{
+
+            }
+            #WebGL-output{
+                width: 400px;
+                height: 400px;
+            }
+            .info__box{
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 300px;
+                height: 200px;
+                background-color: black;
+                display: flex;
+                flex-direction: column;
+
+                color: blanchedalmond;
+
+
+            }
+        }
+        .right__bottom{
+
+            border: 1px solid black;
+            width: 100%;
+            height: 100px;
+            .right__topT{
+
+            }
+            .tl__box{
+                display: flex;
+
+                .tl__item{
+
+               
+
+                 .same{
+
+
+
+
+                 }
+                 .tl__iteml{
+
+                 }
+                 .tl__itemr{
+
+                 }
+                }
+            }
+
+
+        }
+
+     }
+}

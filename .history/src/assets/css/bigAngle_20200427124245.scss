@@ -1,0 +1,18 @@
+.bigAngle{
+     display: flex;
+     width: 100%;
+     height: 100%;
+
+     .bigAngle__left{
+
+        width: 60%; 
+        height: 100%;
+
+     }
+     .bigAngle__right{
+
+        width: 33%; 
+        height: 100%;
+
+     }
+}
